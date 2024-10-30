@@ -69,6 +69,7 @@ ul{
     background-size: cover;
 }
 
+
 #titre div{
     width: 1200px;
     background-color: black;
@@ -77,6 +78,85 @@ ul{
 /* --- TEA PARAGRAPH */
 
 #tea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width:1000px;
 }
 
+.teaimg img{
+    width:300px;
+    height: 200px;
+}
+
+figure{
+
+    width: 300px;
+    margin: 0 10px;
+}
+
+#tea h2, #h4{
+    width: 1000px;
+}
+
+/* --- LOCATIONS ---*/
+
+#location{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 700px;
+    background-image: url("./images/location.png");
+}
+
+#location h2{
+    display: flex;
+    align-content: end;
+
+    height: 40px;
+    margin: 15px 0;
+}
+
+#place{
+    display:flex;
+    width: 1200px;
+    height: 465px;
+    justify-content: center;
+    align-items: start;
+}
+
+#placetitre{
+    height: 235px;
+    align-content: end;
+}
+
+
+.loc{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 0 40px;
+}
+
+/* --- CONTACT ---*/
+
+#contact{
+    display: flex;
+    flex-wrap:wrap;
+    width: 1200px;
+}
+
+#contact h2,#contact h5{
+    width: 1000px;
+}
+
+/* ---FOOTER---*/
+
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin-left: 20px;
+}
